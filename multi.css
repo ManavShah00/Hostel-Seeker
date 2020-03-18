@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.center-div{
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	 background:#A21414;
+}
+.text-center{
+
+	font-family:'Oswald', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	line-height: 80px;
+}
+.row {
+	width: 100%;
+	text-align: center;
+	line-height: 50px;
+	font-size: 1.4rem;
+	background-image: url(image1.jpg);
+	background-position: center;
+	font-family:'Oswald', sans-serif;
+}
+table tr td{
+	padding: 10px;
+	text-align: center;
+}
+form
+{
+	width: 20px;
+	
+}
+#Login{
+	width: 100px;
+	text-align: center;
+}

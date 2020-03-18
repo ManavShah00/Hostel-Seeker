@@ -1,0 +1,79 @@
+
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="register.css">
+		<link rel="stylesheet" type="text/css" href="b.css">
+	</head>
+	<body>
+<div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
+<div class="bgimage">
+      <div class="menu">
+        <div class="leftmenu">
+          <p> HOSTEL SEEKER</p>
+        </div>
+
+        <div class="rightmenu">
+          <ul>
+            <li><a href="hpage.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="registration.html" target="registration.html">Registration</a></li>
+            <li><a href="login.html">Login</a></li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    <div class="diamond"></div>
+    <div class="form-wrap">
+     
+      <form action="hpage.html" autocomplete="off" method="post">
+		
+
+    <fieldset>
+      <legend>Personal Details : </legend>
+			<h2>Hostel Booking Form</h2><br>
+			      <select name="Hostel" required>
+                <option value="">Hostel</option>
+                <option value="Nilkanth">Nilkanth</option>
+                <option value="Dev">Dev</option>
+                <option value="Aman">Aman</option>
+                <option value="Galaxy">Galaxy</option>   
+            </select><br>
+
+            <label for="name">Username:</label><input type="text" name="username" id="name" required autofocus placeholder="Your username*" pattern="[a-zA-Z]{3,}"title="Please Enter in more than three letters" required>
+            <label for="email">Email:</label><input type="text" name="email" id="email" required placeholder="Your Email*" title="Please Enter in a valid email address" required>
+            <label for="phone">Phone:</label><input type="tel" name="phone" id="phone" required placeholder="Please enter your phone number*"pattern="[0-9]{4} [0-9]{3} [0-9]{3}"title="Please Enter in a phone number in this format: #### ### ###" required>
+            <select name ="City*" required>
+                <option value="">City</option>
+                <option value="Vadodara">Vadodara</option> 
+                <option value="Ahmedabad">Ahmedabad</option>
+                <option value="Surat">Surat</option>
+                <option value="Rajkot">Rajkot</option>
+                <option value="Anand">Anand</option>
+                <option value="Nadiad">Nadiad</option>
+            </select>
+           
+        <div class="guests">
+          <label for="AC">AC Requirements</label><br/>
+          <input type="radio" id="cnt-down" name="AC" value="AC"/>AC</br>
+          <input type="radio" id="cnt-up" name="AC" value="Non-AC" />Non-AC</br>
+        </div>
+        <div class="dates">
+          <div class="arrival">
+            <label for="arrival">ARRIVAL</label><br/>
+            <input name="arrival" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="10/03/2016"/>
+          </div>
+          <div class="departure">
+            <label for="arrival">DEPARTURE</label><br/>
+            <input name="departure" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="05/11/2016"/>
+          </div>
+        </div>
+                        <p>Fields marked with * are compulsary</p>
+						<input class="btn" type="submit" value="BOOK NOW"/>
+		  </fieldset>
+      </form>
+   </div>
+  </body>
+</html>
